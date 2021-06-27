@@ -108,8 +108,8 @@ header{
 .header-slogan{
      position: absolute;
 	left: 45%;
-	top: 50%;
-	transform: translate(-45%, -50%);
+	top: 70%;
+	transform: translate(-45%, -40%);
      text-align: center;
 }
 .slogan p{
@@ -166,9 +166,6 @@ header{
       color: #fff;
  }
  @media screen and (min-width:360px) and (max-width:576px) {
-      .service-title{
-           text-align: center !important;
-      }
       .service-title h2{
            display: inline-block;
       }
@@ -332,7 +329,10 @@ video{
 }
 .twitter-area .text p{
      font-size:25px;
-     
+}
+.twitter-row{
+     justify-content: space-between;
+     padding-right:16px;
 }
 /* Ends Twitter Area  */
 /* Start Icon Area */
